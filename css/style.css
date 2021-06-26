@@ -783,11 +783,11 @@ footer span a:hover{
        width: 150px;
     }
     .scroll-up-btn{
-        right: 15px;
+        right: 4px;
         bottom: 15px;
-        height: 38px;
-        width: 35px;
+        height: 40px;
+        width: 32px;
         font-size: 23px;
-        line-height: 38px;
+        line-height: 39px;
     }
 }
