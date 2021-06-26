@@ -508,7 +508,7 @@ section .title::after{
     transition: .5s;
 }
 .contact .contact-content .left .social-icons li:nth-child(1):before {
-    background: #3b5999;
+    background: #7289d9;
 }
 .contact .contact-content .left .social-icons li:nth-child(2):before {
     background: #8a3ab9;
@@ -525,7 +525,7 @@ section .title::after{
     /* box-shadow: 0 0 15px #d35400; */
 }
 .contact .contact-content .left .social-icons li:nth-child(1):hover:before {
-    box-shadow: 0 0 15px #3b5999;
+    box-shadow: 0 0 15px #7289d9;
 }
 .contact .contact-content .left .social-icons li:nth-child(2):hover:before {
     box-shadow: 0 0 15px #8a3ab9;
@@ -545,9 +545,9 @@ section .title::after{
     text-shadow: 0 0 15px #d35400;
 }
 .contact .contact-content .left .social-icons li:nth-child(1):hover {
-    color: #3b5999;
-    box-shadow: 0 0 15px #3b5999;
-    text-shadow: 0 0 15px #3b5999;
+    color: #7289d9;
+    box-shadow: 0 0 15px #7289d9;
+    text-shadow: 0 0 15px #7289d9;
 }
 .contact .contact-content .left .social-icons li:nth-child(2):hover {
     color: #e4405f;
