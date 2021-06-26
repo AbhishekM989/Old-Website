@@ -485,7 +485,7 @@ section .title::after{
     font-size: 20px;
     height: 40px;
     width:  40px;
-    background: black;
+    background: whitesmoke;
     line-height: 40px;
     border-radius: 50%;
     margin: 0 15px;
@@ -563,6 +563,10 @@ section .title::after{
     color: #211F1F;
     box-shadow: 0 0 15px #211F1F;
     text-shadow: 0 0 15px #211F1F;
+}
+.contact .contact-content .left .social-icons li i {
+    text-align: center;
+    color: black;
 }
 .contact .contact-content .row{
     display: flex;
