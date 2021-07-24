@@ -669,7 +669,7 @@ footer span a:hover{
 @media (max-width: 1104px) {
 
     .navbar .logo a{
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .about .about-content .left img{
@@ -681,7 +681,7 @@ footer span a:hover{
 @media (max-width: 991px) {
 
     .navbar .logo a{
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .max-width{
@@ -691,7 +691,7 @@ footer span a:hover{
 @media (max-width: 947px){
 
     .navbar .logo a{
-        font-size: 10px;
+        font-size: 25px;
     }
     
     .menu-btn{
@@ -761,7 +761,7 @@ footer span a:hover{
 @media (max-width: 690px) {
 
     .navbar .logo a{
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .max-width{
@@ -784,7 +784,7 @@ footer span a:hover{
 @media (max-width: 500px) {
 
     .navbar .logo a{
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .home .home-content .text-2{
