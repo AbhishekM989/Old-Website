@@ -668,10 +668,10 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1104px) {
 
-    .logo{
+    .navbar .logo{
         font-size: 10px;
     }
-    
+
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -685,7 +685,7 @@ footer span a:hover{
 }
 @media (max-width: 947px){
 
-    .logo{
+    .navbar .logo{
         font-size: 10px;
     }
     
@@ -755,7 +755,7 @@ footer span a:hover{
 
 @media (max-width: 690px) {
 
-    .logo{
+    .navbar .logo{
         font-size: 10px;
     }
 
@@ -777,6 +777,11 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+
+    .navbar .logo{
+        font-size: 10px;
+    }
+
     .home .home-content .text-2{
         font-size: 50px;
     }
