@@ -744,6 +744,11 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+
+    .logo{
+        font-size: 10px;
+    }
+
     .max-width{
         padding: 0 23px;
     }
