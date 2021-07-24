@@ -667,6 +667,11 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
+
+    .logo{
+        font-size: 10px;
+    }
+    
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -679,6 +684,11 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+
+    .logo{
+        font-size: 10px;
+    }
+    
     .menu-btn{
         display: block;
         z-index: 999;
