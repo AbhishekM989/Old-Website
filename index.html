@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Abhishek</title>
 
 </head>
@@ -41,7 +42,7 @@
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div class="home-content"  data-aos="zoom-in" data-aos-duration="1500">
                 <div class="text-1">Hello, My Name is</div>
                 <div class="text-2">Abhishek Maurya</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
@@ -58,7 +59,7 @@
                 <div class="column left">
                     <img src="./img/profile.png" alt="">
                 </div>
-                <div class="column right">
+                <div class="column right" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="text">I'm Abhishek Maurya and I'm a <span class="typing-2"></span></div>
                     <p class="col-right">I am A Website Developer And can Design Your Dream Wesbiste. I Work On Languages
                         Like <span>HTML CSS JAVASCRIPT NODE.JS And Python.
@@ -76,7 +77,7 @@
         <div class="max-width">
             <h2 class="title">Services</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Web Development</div>
@@ -85,14 +86,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <div class="box">
                         <i class="fas fa-robot"></i>
                         <div class="text">AI Devlopment</div>
                         <p>Coming Soon !!!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Bot Development</div>
@@ -268,5 +269,11 @@
     </footer>
 
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300
+      });
+    </script>
 </body>
 </html>
