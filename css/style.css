@@ -668,7 +668,7 @@ footer span a:hover{
 /* responsive media query start */
 @media (max-width: 1104px) {
 
-    .navbar .logo{
+    .navbar .logo a{
         font-size: 10px;
     }
 
@@ -679,13 +679,18 @@ footer span a:hover{
 }
 
 @media (max-width: 991px) {
+
+    .navbar .logo a{
+        font-size: 10px;
+    }
+
     .max-width{
         padding: 0 50px;
     }
 }
 @media (max-width: 947px){
 
-    .navbar .logo{
+    .navbar .logo a{
         font-size: 10px;
     }
     
@@ -755,7 +760,7 @@ footer span a:hover{
 
 @media (max-width: 690px) {
 
-    .navbar .logo{
+    .navbar .logo a{
         font-size: 10px;
     }
 
@@ -778,7 +783,7 @@ footer span a:hover{
 
 @media (max-width: 500px) {
 
-    .navbar .logo{
+    .navbar .logo a{
         font-size: 10px;
     }
 
