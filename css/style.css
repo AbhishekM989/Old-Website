@@ -400,6 +400,9 @@ section .title::after{
 .skills-content .right .js::before{
     width: 50%;
 }
+.skills-content .right .py::before{
+    width: 50%;
+}
 
 
 /* teams section styling */
