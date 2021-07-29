@@ -662,6 +662,8 @@ section .title::after{
 }
 /* footer section styling */
 footer{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     background: #111;
     padding: 15px 23px;
     color: #fff;
