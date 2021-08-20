@@ -226,7 +226,7 @@ section .title::after{
     color: var(--primary-color);
     font-weight: 500;
 }
-/* .home .home-content a{
+.home .home-content a{
     display: inline-block;
     background: var(--primary-color);
     color: #fff;
@@ -241,70 +241,8 @@ section .title::after{
 .home .home-content a:hover{
     color: var(--primary-color);
     background: none;
-} */
-
-.home .home-content a {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 180px;
-    height: 50px;
-    background: #232323;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 50px;
-    color: #FF0;
-    font-size: 20px;
-    font-family: verdana;
-    letter-spacing: 4px;
 }
 
-.home .home-content,
-a:before,
-a:after,
-span:before,
-span:after
-{
-  content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: #FF0;
-    transition: 1s;
-    mix-blend-mode: hue;
-}
-
-.home .home-content a:before
-{
-    top: -2px;
-    left: -2px
-}
-.home .home-content a:after
-{
-    top: -2px;
-    right: -2px;
-}
-.home .home-content span:before
-{
-    bottom: -2px;
-    left: -2px
-}
-.home .home-content span:after
-{
-    bottom: -2px;
-    right: -2px
-}
-.home .home-content,
-a:hover:before,
-a:hover:after,
-a:hover span:before,
-a:hover span:after
-{
-    width: calc( 180px/2 );
-    height: calc( 50px/2 )
-}
 
 
 /* about section styling */
