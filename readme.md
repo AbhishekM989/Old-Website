@@ -1,13 +1,4 @@
-<style>
-    h3{
-        font-size: 50px;
-        background-image: linear-gradient(to left, #9796f0, #fbc7d4);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
-    }
-</style>
+
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <br />
