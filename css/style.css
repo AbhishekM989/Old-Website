@@ -703,6 +703,9 @@ footer span a:hover{
         width: 250px;
         height: 250px;
     }
+    .footer{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -718,6 +721,9 @@ footer span a:hover{
     .about .about-content .left img{
         width: 250px;
         height: 250px;
+    }
+    .footer{
+        font-size: 15px;
     }
 }
 @media (max-width: 947px){
@@ -791,6 +797,9 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .footer{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -818,6 +827,9 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .footer{
+        font-size: 10px;
     }
 }
 
@@ -859,5 +871,8 @@ footer span a:hover{
         width: 32px;
         font-size: 23px;
         line-height: 39px;
+    }
+    .footer{
+        font-size: 10px;
     }
 }
