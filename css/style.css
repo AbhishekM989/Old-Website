@@ -509,7 +509,7 @@ section .title::after{
     font-size: 20px;
     height: 40px;
     width:  40px;
-    background: whitesmoke;
+    background: white;
     line-height: 40px;
     border-radius: 50%;
     margin: 0 15px;
